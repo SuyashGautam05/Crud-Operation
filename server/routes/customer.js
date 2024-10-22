@@ -4,7 +4,7 @@ const customerController = require('../controllers/customerController')
 
 
 router.get('/', customerController.homepage);
-router.get('/about', customerController.about);
+// router.get('/about', customerController.about);
 router.get('/add', customerController.addCustomer);
 router.post('/add', customerController.postCustomer);
 
